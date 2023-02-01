@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2? family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Condensed&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 131);
+    background-image: url(../img/fondo-vector-azul-claro-rectangulos-cuadrados_6869-222.webp);
+    background-position:unset
+}
+
+/* nav */
+
+ul li {
+    list-style-type: none;
+}
+
+ul li :hover {
+color: yellow;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+
+a, nav {
+    color: white;
+    background-color:  rgb(1, 1, 92);
+}
+
+a{
+    font-size: 19px;
+    padding-left: 20px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+p, .info, .nombre{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+a, h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* index */
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.presentacion{
+    color: white;
+    background-color: rgb(1, 1, 92);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 70px;
+}
+
+.nombre{
+    color: rgb(133, 190, 230);
+    margin-left: 495px;
+    font-size: 27px;
+}
+
+i{
+    background-color: rgb(49, 53, 104);
+}
+
+b {
+    color: rgb(66, 150, 179);
+    font-size: 30px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(30, 39, 91);
+    border-radius: 13px;
+}
+
+/* informacion personal */
+
+section{
+    background-color: rgb(1, 1, 92);
+    border-radius: 30px;
+    height: 460px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;   
+}
+
+.fotoP{
+    max-width: 300px;
+    width: 180px;
+    margin-left: 300px;
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-flexbox;
+    float: left;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.info{
+    color: rgb(164, 214, 250);
+    margin-left: 600px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.infoDe{
+    font-size: 22px;
+    margin-right: 2px;
+}
+
+/* habilidades */
+
+.pHabilidades{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+/* footer */
+.footerDiv{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 55px;
+}
+
+footer{
+    background-color:  rgb(1, 1, 92);
+    margin-top: 275px;
+    padding-top: 10px;
+    display: block;
+}
+
+
+
+.footerInfo{
+    margin-top: 39px;
+}
+
+.footerHabilidades{
+    margin-top: 39px;
+}
